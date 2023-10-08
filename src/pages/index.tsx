@@ -1,10 +1,11 @@
 import { FC } from "react";
 import { Layout } from "../components/Layout";
+import App from "../App";
 
 export const IndexPage: FC = () => {
 	return (
 		<Layout>
-			<div>Hello main (new update!)</div>
+			<App />
 		</Layout>
 	);
 };
